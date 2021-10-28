@@ -10,3 +10,7 @@ Git é uma ferramenta usada por desenvolvedores para gerenciar o controle das ve
 * git merge [nome da branch que você deseja juntar]
 #### Juntar a branch para a qual você deseja ir para a branch principal
 * git checkout [branch para qual você deseja ir]; git merge [nome da branch principal]
+#### O rebase deixa a sequencia de commits linear, pega os commits de um lugar, copia e cola em outro...
+Neste comando o commit continua existindo no local de origem, ele só estará visível de forma linear na branch que você escolheu.
+* git rebase [nome da branch onde você deseja colocar os commits]
+
