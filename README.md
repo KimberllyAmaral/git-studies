@@ -24,9 +24,9 @@ Neste comando o commit continua existindo no local de origem, ele só estará vi
 #### O comando HEAD^ pode ser cansativo, por isso use o operador ~ para andar entre um número maior de commits
 * git HEAD~[número de commits]
 * git HEAD~4
-> Para trocar ramos de lugar, você pode redefinir diretamente o commit para o qual um ramo aponta com a opção -f
-Exemplo:
-> Move (à força) o ramo main 3 ancestrais acima do HEAD.
+> Para trocar ramos de lugar, você pode redefinir diretamente o commit para o qual um ramo aponta com a opção -f <
+
+Exemplo: Move (à força) o ramo main 3 ancestrais acima do HEAD.
 * git branch -f main HEAD~3
 
 
