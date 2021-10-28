@@ -13,4 +13,8 @@ Git é uma ferramenta usada por desenvolvedores para gerenciar o controle das ve
 #### O rebase deixa a sequencia de commits linear, pega os commits de um lugar, copia e cola em outro...
 Neste comando o commit continua existindo no local de origem, ele só estará visível de forma linear na branch que você escolheu.
 * git rebase [nome da branch onde você deseja colocar os commits]
+### HEAD é um nome simbólico para o commit atualmente ativo (que sofreu checkout por último)
+Soltar o HEAD significa anexá-lo a um commit em vez de anexá-lo a um ramo. Antes do estado solto ("detached"), é assim como se parece:
+* git checkout [nome do head]
+
 
