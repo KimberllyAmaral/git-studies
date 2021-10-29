@@ -29,6 +29,15 @@ Neste comando o commit continua existindo no local de origem, ele só estará vi
 Exemplo: Move (à força) o ramo main 3 ancestrais acima do HEAD.
 * git branch -f main HEAD~3
 
-
+#### Revertendo mudanças no git
+> O comando git reset reverte mudanças movendo para trás no tempo (para um commit mais antigo) a referência do ramo. O git reset vai mover o ramo para trás como se o commit nunca tivesse existido.
+* git reset HEAD~1
+> git reset funciona bem somente em branches locais
+#### Compartilhar mudanças
+> Para reverter mudanças e conseguir compartilhar essas mudanças com os outros, precisamos usar o git revert
+* git revert
+#### Copiando uma série de commits
+* git cherry-pick [nome dos commits]
+* git cherry-pick c1 c2
 
 
