@@ -39,5 +39,12 @@ Exemplo: Move (à força) o ramo main 3 ancestrais acima do HEAD.
 #### Copiando uma série de commits
 * git cherry-pick [nome dos commits]
 * git cherry-pick c1 c2
+#### Rebase interativo
+> Mostrar quais commits estão prestes a serem copiados abaixo do alvo do rebase. Ele também mostra os hashes e as mensagens dos commits, o que é ótimo para ter noção do que é o que.
+* git rebase -i HEAD~3
+(Rebasing 3 commits)
+> Dessa forma o git copia alguns commits exatamente da mesma forma que você os especificou.
+
+
 
 
